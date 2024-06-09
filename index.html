@@ -14,15 +14,39 @@
     </div>
     <div class="tableauViz" style="width: 100%; height: 800px;"></div>
         
-    <!-- Visualization 2 - Framework -->
+<!-- Visualization 2 - Framework -->
     <div class="text-above-viz">
-            <h2>Visualization 2</h2>
-            <p>Description for Visualization 2</p>
+            <h2>EV sales in the world</h2>
+            <p>Previous visualizations showed the projected ev production in 2027 in the world as well as the EV and non-EV car sales in Europe in the year 2023. It is also useful for the public to see and policymakers to be informed by how the EV sales worldwide change over time, therefore predicting the trend in the following years. Although the information provided is for the worldwide EV sales, each country can still gain insight and adopt their own policies locally. The graph shows the EV sales from 2017 to 2022, indicating a clear rising trend in the sales over the years. In 2022 the sales worldwide has reached 10 million. In the following visualizations we will delve into the reasons for this uprising trend and provide more detailed analysis for the information hidden behind the data.</p>
     </div>
        <div class="tableauViz" style="width: 100%; height: 800px;"></div>
  
         
     <!-- Visualization 3 - Framework -->
+    <div class="text-above-viz">
+            <h2>Government spending on EV</h2>
+            <p>The visualization in these two graphs show how the government spending is increasing overall in past years. One could easily rationalize that with more money people are more willing to purchase EV, therefore causing the general rising trend in the EV sales worldwide. However, the average spending per EV refutes this saying by demonstrating a downward trend. Together with the previous visualization users could notice that with less incentive given for one EV by the government, the overall sales of EV has still been increasing in the past few years, suggesting that monetary factors are not, or at least not the only factors influencing the EV sales.</p>
+    </div>
+        <div class="tableauViz" style="width: 100%; height: 800px;"></div>
+   
+        
+    <!-- Visualization 4 - Framework -->
+    <div class="text-above-viz">
+            <h2>Reasons for people' EV purchase</h2>
+            <p>This visualization reveals the fundamental reasons concerning people’s purchase willingness of EV. On the left side the graph describes the reasons inhibiting purchase of EV. It is evident that the worry about the lack of charging stations in the city takes up the first place whereas the lack of charging infrastructure at work or home is less of a concern. On the contrary, the graph on the right illustrates the reasons motivating the purchase of EV. It is also interesting to see that the monetary incentive, which one may assume to be the most influential factor, only takes the third place in the middle. While environmental concerns are the most motivating factor encouraging people’s purchase. And in general all the factors can be categorized to 4 types: environmental concern, monetraty incentives, charging infrustracture and upfront costs.</p>
+    </div>
+        <div class="tableauViz" style="width: 100%; height: 800px;"></div>
+
+        
+    <!-- Visualization 5 - Framework -->
+    <div class="text-above-viz">
+            <h2>Financial incentive for EV purchase in selected European countries</h2>
+            <p>After consideration, we opted for 4 countries that are representative in Europe to make instructions for the policymakers to speed up the transformation in Europe. As a forerunner, Norway is chosen for its high EV adoption as illustrated in the beginning. Belgium and the Netherlands are also chosen since the Netherlands have a lot in common with Belgium while taking up a much higher proportion of EV sales than Belgium. Spain is also chosen as a southern European country and for its rich data availability.</p>
+    </div>
+        <div class="tableauViz" style="width: 100%; height: 800px;"></div>
+        
+        
+    <!-- Visualization 6 - Framework -->
     <div class="text-above-viz">
             <h2>Visualization 3</h2>
             <p>Previous studies have proved that charging infrastructure is considered a key and indispensable factor in the use and popularization of electric vehicles [ 1 ]. The construction of a suitable charging network can effectively improve the satisfaction of electric vehicle users [ 2 ]. By investigating the relationship between EV market share and selected variables in 30 countries, Sierzchula et al [ 3 ] found that there is a significant positive correlation between charging infrastructure and a country's EV market share.Giansoldati et al [ 4 ] found that the availability of charging infrastructure as well as charging infrastructure availability was a key reason. [ 5 ] examined the barriers to EV penetration and identified charging infrastructure as a major barrier to the promotion of EVs in Italy.
@@ -39,7 +63,7 @@ Therefore, we believe that, contrary to the previous impression that simply incr
         <div class="tableauViz" style="width: 100%; height: 800px;"></div>
    
         
-    <!-- Visualization 4 - Framework -->
+    <!-- Visualization 7 - Framework -->
     <div class="text-above-viz">
             <h2>Visualization 4</h2>
             <p>
@@ -48,14 +72,14 @@ Therefore, we believe that, contrary to the previous impression that simply incr
         <div class="tableauViz" style="width: 100%; height: 800px;"></div>
 
         
-    <!-- Visualization 5 - Framework -->
+    <!-- Visualization 8 - Framework -->
     <div class="text-above-viz">
             <h2>Visualization 5</h2>
             <p>Description for Visualization 5</p>
     </div>
         <div class="tableauViz" style="width: 100%; height: 800px;"></div>
         
-    <!-- Visualization 6 - Framework -->
+    <!-- Visualization 9 - Framework -->
     <div class="text-above-viz">
             <h2>Recharging Cost</h2>
             <p>For consumers and potential buyers, one important factor is the recharging price. One recharging session can consist of several components: Private recharging price, that is, the electricity price when you recharge the EVs at home. When recharging in public places, it involves two kinds of fees: public AC (alternating current) recharging, which is usually slow and cheaper, and fast but more expensive public DC (direct current) recharging. Another option is to subscribe to eMobility Service Providers (MSPs), which involves subscription fee.  The chart below shows these components in Norway, Spain, Nederland, and Belgium. An interactive dashboard is also shown, so that users can get an estimated monthly recharging cost based on their own monthly kilometer driven, average vehicle consumption, composition of different recharging methods. Please note that additional costs may apply and the prices are only indicative.</p>
@@ -73,11 +97,14 @@ Therefore, we believe that, contrary to the previous impression that simply incr
             var visualizations = document.querySelectorAll('.tableauViz');
             var vizURLs = [
                 'https://public.tableau.com/views/DashboardEVadoption/Dashboard1?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link', // URL for Visualization 1
-                '', // URL for Visualization 2 - Add URL Here
-                'https://public.tableau.com/views/totalchargingpoint/1?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link', // URL for Visualization 3 
-                '', // URL for Visualization 4 - Add URL Here
-                '', // URL for Visualization 5 - Add URL Here
-                'https://public.tableau.com/views/EVs_17178365534900/Dashboard1?:language=en-GB&publish=yes&:sid=&:display_count=n&:origin=viz_share_link'  // URL for Visualization 6 - Add URL Here
+                'https://public.tableau.com/views/6_06/Dashboard2?:language=zh-CN&publish=yes&:sid=&:display_count=n&:origin=viz_share_link', // URL for Visualization 2 - Add URL Here
+                'https://public.tableau.com/views/ElectriccarspendingworldwideandaveragespendingperEV/Dashboard3?:language=zh-CN&publish=yes&:sid=&:display_count=n&:origin=viz_share_link', // URL for Visualization 3 - Add URL Here
+                'https://public.tableau.com/views/5_24_17165571330570/Dashboard1?:language=zh-CN&:sid=&:display_count=n&:origin=viz_share_link', // URL for Visualization 4 - Add URL Here
+                'https://public.tableau.com/views/AverageEVfinancialpurchaseinselectedcountries/Dashboard4?:language=zh-CN&publish=yes&:sid=&:display_count=n&:origin=viz_share_link', // URL for Visualization 5 - Add URL Here
+                'https://public.tableau.com/views/totalchargingpoint/1?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link', // URL for Visualization 6 
+                '', // URL for Visualization 7 - Add URL Here
+                '', // URL for Visualization 8 - Add URL Here
+                'https://public.tableau.com/views/EVs_17178365534900/Dashboard1?:language=en-GB&publish=yes&:sid=&:display_count=n&:origin=viz_share_link'  // URL for Visualization 9 - Add URL Here
             ];
             var options = {
                 width: '100%',
